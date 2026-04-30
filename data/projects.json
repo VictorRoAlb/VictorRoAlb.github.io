@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Foundation Models for Computational Pathology",
+    "subtitle": "Featured thesis project",
+    "description": "Benchmarking and evaluation pipeline for histopathology foundation models, combining whole-slide image representations and pathology report embeddings for cross-modal retrieval tasks.",
+    "details": "Curated public export of the TFM pipeline with privacy-safe figures, synthetic examples and documentation for multimodal retrieval benchmarking in computational pathology.",
+    "tags": [
+      "Computational Pathology",
+      "Foundation Models",
+      "Multimodal Retrieval"
+    ],
+    "technologies": [
+      "Python",
+      "Jupyter",
+      "PyTorch ecosystem",
+      "Matplotlib"
+    ],
+    "status": "Public-ready",
+    "github": "https://github.com/VictorRoAlb/foundation-models-computational-pathology",
+    "report": "",
+    "image": "public/foundation-placeholder.svg"
+  },
+  {
+    "title": "VoxelMorph for Breast MRI Registration",
+    "subtitle": "Public bachelor thesis project",
+    "description": "Public GitHub repository for a breast MRI registration project based on VoxelMorph.",
+    "details": "Established bachelor-thesis project already available on GitHub; this portfolio highlights it as a strong medical-imaging project and keeps local support notes separate.",
+    "tags": [
+      "Medical Imaging",
+      "Registration",
+      "Deep Learning"
+    ],
+    "technologies": [
+      "Python",
+      "VoxelMorph",
+      "MRI"
+    ],
+    "status": "Public",
+    "github": "https://github.com/VictorRoAlb/VoxelMorph-breastMRI-registration",
+    "report": "",
+    "image": "public/voxelmorph-placeholder.svg"
+  },
+  {
+    "title": "Machine Learning for Classification and Regression",
+    "subtitle": "Coursework portfolio",
+    "description": "Selected supervised-learning coursework focused on classification, regression and evaluation workflows.",
+    "details": "Curated RMarkdown material with safe visual outputs and a public-facing README centered on model comparison, validation strategy and metric interpretation.",
+    "tags": [
+      "Machine Learning",
+      "Classification",
+      "Regression"
+    ],
+    "technologies": [
+      "R",
+      "RMarkdown",
+      "caret-style workflows"
+    ],
+    "status": "In preparation",
+    "github": "https://github.com/VictorRoAlb/machine-learning-classification-regression",
+    "report": "",
+    "image": "public/ml-placeholder.svg"
+  },
+  {
+    "title": "Neural Networks and Simulation",
+    "subtitle": "Deep-learning coursework",
+    "description": "Neural-network and simulation coursework staged for future public cleanup.",
+    "details": "Repository scaffold prepared; the main notebook still requires path cleaning, export reduction and a cleaner narrative before publication.",
+    "tags": [
+      "Neural Networks",
+      "Simulation",
+      "Deep Learning"
+    ],
+    "technologies": [
+      "Python",
+      "Keras",
+      "Jupyter"
+    ],
+    "status": "Manual review",
+    "github": "https://github.com/VictorRoAlb/neural-networks-simulation",
+    "report": "",
+    "image": "public/nn-placeholder.svg"
+  },
+  {
+    "title": "Multivariate Analysis and Process Monitoring",
+    "subtitle": "PCA / MCA / PLS-DA portfolio",
+    "description": "Curated material on multivariate analysis, class modelling and process-monitoring style visualizations.",
+    "details": "Combines two separate academic source folders: exploratory multivariate analysis plus a dedicated multivariate process-monitoring project with correlation and PLS-DA diagnostic figures.",
+    "tags": [
+      "PCA",
+      "PLS-DA",
+      "MSPC"
+    ],
+    "technologies": [
+      "Python",
+      "RMarkdown",
+      "Jupyter"
+    ],
+    "status": "In preparation",
+    "github": "https://github.com/VictorRoAlb/multivariate-analysis-process-monitoring",
+    "report": "",
+    "image": "public/multivariate-placeholder.svg"
+  },
+  {
+    "title": "Production Planning and Parallel Machine Scheduling",
+    "subtitle": "Engineering optimization project",
+    "description": "Selected optimization coursework covering release dates, setups and production-planning logic.",
+    "details": "Kept as a secondary engineering project in the portfolio; the public scaffold is ready, but the main notebooks still need local-path cleanup before publication.",
+    "tags": [
+      "Optimization",
+      "Scheduling",
+      "Operations Research"
+    ],
+    "technologies": [
+      "Python",
+      "Jupyter",
+      "Spreadsheet workflows"
+    ],
+    "status": "In preparation",
+    "github": "https://github.com/VictorRoAlb/production-scheduling-optimization",
+    "report": "",
+    "image": "public/scheduling-placeholder.svg"
+  }
+]

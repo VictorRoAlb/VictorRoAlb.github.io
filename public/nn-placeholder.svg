@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400">
+  <defs>
+    <linearGradient id="g" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#d9edf8"/>
+      <stop offset="100%" stop-color="#eef3df"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" rx="28" fill="url(#g)"/>
+  <circle cx="118" cy="104" r="52" fill="#0f5a8c" opacity="0.13"/>
+  <circle cx="528" cy="292" r="70" fill="#5f8a53" opacity="0.12"/>
+  <text x="52" y="212" font-size="38" font-family="IBM Plex Sans, Arial, sans-serif" fill="#12314a" font-weight="700">NN</text>
+  <text x="52" y="252" font-size="18" font-family="IBM Plex Sans, Arial, sans-serif" fill="#4f6178">Portfolio placeholder graphic</text>
+</svg>

@@ -1,0 +1,11 @@
+{
+  "name": "victorroalb-portfolio-site",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Static GitHub Pages portfolio for VictorRoAlb.",
+  "scripts": {
+    "dev": "python -m http.server 4173",
+    "build": "echo Static site - no build required",
+    "preview": "python -m http.server 4173"
+  }
+}
