@@ -3,24 +3,33 @@ async function loadProjects() {
   return response.json();
 }
 
+function statusClass(status) {
+  const normalized = status.toLowerCase();
+  if (normalized.includes("published")) return "status-published";
+  if (normalized.includes("curated")) return "status-curated";
+  return "status-draft";
+}
+
 function renderProjectCard(project) {
   const tags = project.tags.map((tag) => `<span class="meta-chip">${tag}</span>`).join("");
   const tech = project.technologies.map((item) => `<span class="meta-chip">${item}</span>`).join("");
   const reportLink = project.report && project.report !== "#"
     ? `<a class="button button-secondary" href="${project.report}">Report</a>`
     : "";
+
   return `
-    <article class="project-card">
+    <article class="project-card" data-cluster="${project.cluster}">
       <img class="project-thumb" src="${project.image}" alt="${project.title} preview" loading="lazy" />
-      <p class="project-subtitle">${project.subtitle}</p>
+      <div class="project-status-row">
+        <p class="project-subtitle">${project.subtitle}</p>
+        <span class="status-badge ${statusClass(project.status)}">${project.status}</span>
+      </div>
       <h3>${project.title}</h3>
       <p>${project.description}</p>
       <p>${project.details}</p>
+      <p class="cluster-label">${project.cluster}</p>
       <div class="meta-row">${tags}</div>
       <div class="meta-row">${tech}</div>
-      <div class="meta-row">
-        <span class="meta-chip">Status: ${project.status}</span>
-      </div>
       <div class="project-links">
         <a class="button button-secondary" href="${project.github}">GitHub</a>
         ${reportLink}
@@ -29,10 +38,45 @@ function renderProjectCard(project) {
   `;
 }
 
+function buildFilters(projects) {
+  const filters = ["All", ...new Set(projects.map((project) => project.cluster))];
+  const wrapper = document.getElementById("project-filters");
+  wrapper.innerHTML = filters
+    .map((filter, index) => `
+      <button class="filter-pill ${index === 0 ? "is-active" : ""}" data-filter="${filter}">
+        ${filter}
+      </button>
+    `)
+    .join("");
+}
+
+function applyFilter(filter) {
+  const cards = document.querySelectorAll(".project-card");
+  cards.forEach((card) => {
+    const shouldShow = filter === "All" || card.dataset.cluster === filter;
+    card.classList.toggle("is-hidden", !shouldShow);
+  });
+
+  document.querySelectorAll(".filter-pill").forEach((button) => {
+    button.classList.toggle("is-active", button.dataset.filter === filter);
+  });
+}
+
+function bindFilters() {
+  const wrapper = document.getElementById("project-filters");
+  wrapper.addEventListener("click", (event) => {
+    const button = event.target.closest(".filter-pill");
+    if (!button) return;
+    applyFilter(button.dataset.filter);
+  });
+}
+
 async function main() {
   const projects = await loadProjects();
   const grid = document.getElementById("projects-grid");
   grid.innerHTML = projects.map(renderProjectCard).join("");
+  buildFilters(projects);
+  bindFilters();
 }
 
 main().catch((error) => {

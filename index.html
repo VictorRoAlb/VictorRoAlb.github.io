@@ -15,44 +15,146 @@
 </head>
 <body>
   <div class="page-shell">
-    <header class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">VictorRoAlb Portfolio</p>
-        <h1>Victor Rodriguez Albendea</h1>
-        <p class="hero-subtitle">Biomedical AI Researcher | Data Scientist | Biomedical Engineer</p>
-        <p class="hero-text">
-          Biomedical engineer working on computational pathology, medical imaging,
-          multimodal evaluation and data-driven modelling.
-        </p>
-        <div class="hero-actions">
-          <a href="#projects" class="button button-primary">View Projects</a>
-          <a href="https://github.com/VictorRoAlb" class="button button-secondary">GitHub</a>
-        </div>
-      </div>
-      <div class="hero-panel">
-        <p class="panel-kicker">Featured Project</p>
-        <h2>Foundation Models for Computational Pathology</h2>
-        <p>
-          Benchmarking and evaluation pipeline for histopathology foundation models,
-          combining whole-slide image representations and pathology report embeddings for
-          cross-modal retrieval tasks.
-        </p>
-        <div class="chip-row">
-          <span class="chip">Multimodal retrieval</span>
-          <span class="chip">Recall@K</span>
-          <span class="chip">Computational pathology</span>
-        </div>
-      </div>
+    <header class="topbar">
+      <a class="brand" href="#top">
+        <span class="brand-mark">VR</span>
+        <span class="brand-text">VictorRoAlb Portfolio</span>
+      </a>
+      <nav class="topnav">
+        <a href="#projects">Projects</a>
+        <a href="#focus">Focus</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
 
-    <main>
-      <section class="section" id="projects">
-        <div class="section-heading">
-          <p class="eyebrow">Projects</p>
-          <h2>Selected work</h2>
-          <p>Selected thesis and coursework projects prepared for public release.</p>
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Biomedical AI portfolio</p>
+          <h1>Victor Rodriguez Albendea</h1>
+          <p class="hero-subtitle">Biomedical AI Researcher | Data Scientist | Biomedical Engineer</p>
+          <p class="hero-text">
+            I work at the intersection of computational pathology, medical imaging,
+            multimodal evaluation and applied data science, with a strong focus on
+            reproducible reporting and technically honest public-facing project design.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="button button-primary">Explore Projects</a>
+            <a href="https://github.com/VictorRoAlb" class="button button-secondary">GitHub</a>
+            <a href="https://victorroalb.github.io" class="button button-secondary">Portfolio URL</a>
+          </div>
+          <div class="hero-points">
+            <div class="hero-point">
+              <span class="hero-point-label">Core area</span>
+              <strong>Biomedical AI and computational pathology</strong>
+            </div>
+            <div class="hero-point">
+              <span class="hero-point-label">Working style</span>
+              <strong>Reproducible, privacy-aware, publication-ready</strong>
+            </div>
+          </div>
         </div>
+
+        <div class="hero-aside">
+          <div class="hero-panel hero-panel-strong">
+            <p class="panel-kicker">Featured project</p>
+            <h2>Foundation Models for Computational Pathology</h2>
+            <p>
+              Benchmarking and evaluation pipeline for histopathology foundation models,
+              combining whole-slide image representations and pathology report embeddings
+              for cross-modal retrieval tasks.
+            </p>
+            <div class="chip-row">
+              <span class="chip">Multimodal retrieval</span>
+              <span class="chip">Recall@K</span>
+              <span class="chip">Pathology reports</span>
+            </div>
+            <a class="button button-primary wide-button" href="https://github.com/VictorRoAlb/foundation-models-computational-pathology">Open Repository</a>
+          </div>
+
+          <div class="hero-metrics">
+            <article class="metric-card">
+              <span class="metric-value">7+</span>
+              <span class="metric-label">public portfolio repositories</span>
+            </article>
+            <article class="metric-card">
+              <span class="metric-value">3</span>
+              <span class="metric-label">main profile directions</span>
+            </article>
+            <article class="metric-card">
+              <span class="metric-value">1</span>
+              <span class="metric-label">clear flagship thesis project</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section feature-section">
+        <div class="section-heading">
+          <p class="eyebrow">Flagship Work</p>
+          <h2>What defines the portfolio</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>Foundation model benchmarking in histopathology</h3>
+            <p>
+              Cross-modal retrieval benchmarking across AI4SKIN, SICAP and related
+              evaluation settings, with privacy-safe reporting and portfolio-ready figures.
+            </p>
+          </article>
+          <article class="feature-card">
+            <h3>Medical imaging and registration</h3>
+            <p>
+              Breast MRI registration through the public VoxelMorph bachelor-thesis project,
+              presented as a mature and already consolidated repository.
+            </p>
+          </article>
+          <article class="feature-card">
+            <h3>Strong quantitative base</h3>
+            <p>
+              Machine learning, forecasting, multivariate analysis and optimization projects
+              reinforce the profile with statistical depth beyond one single thesis topic.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading projects-heading">
+          <div>
+            <p class="eyebrow">Projects</p>
+            <h2>Selected public work</h2>
+            <p>Curated repositories prepared for a professional GitHub and CV-facing portfolio.</p>
+          </div>
+          <div class="legend-strip">
+            <span class="legend-item"><span class="legend-dot published"></span>Published</span>
+            <span class="legend-item"><span class="legend-dot curated"></span>Curated public version</span>
+            <span class="legend-item"><span class="legend-dot draft"></span>Public draft / scaffold</span>
+          </div>
+        </div>
+        <div id="project-filters" class="filter-row"></div>
         <div id="projects-grid" class="projects-grid"></div>
+      </section>
+
+      <section class="section" id="focus">
+        <div class="section-heading">
+          <p class="eyebrow">Focus</p>
+          <h2>Technical profile</h2>
+        </div>
+        <div class="focus-grid">
+          <article class="focus-card">
+            <h3>Biomedical AI</h3>
+            <p>Computational pathology, medical imaging, multimodal retrieval and evaluation workflows.</p>
+          </article>
+          <article class="focus-card">
+            <h3>Data Science</h3>
+            <p>Forecasting, supervised learning, validation strategy, multivariate analysis and model comparison.</p>
+          </article>
+          <article class="focus-card">
+            <h3>Engineering mindset</h3>
+            <p>Optimization, process monitoring and structured reporting with reproducibility in mind.</p>
+          </article>
+        </div>
       </section>
 
       <section class="section section-two-column">
@@ -61,32 +163,41 @@
           <h2>Technical stack</h2>
           <ul class="skill-list">
             <li>Python, R, Jupyter, RMarkdown</li>
-            <li>Machine learning, deep learning, multimodal AI</li>
+            <li>Machine learning, deep learning and multimodal AI</li>
             <li>Computational pathology and medical imaging</li>
-            <li>Model evaluation, retrieval benchmarks and reproducible reporting</li>
-            <li>PCA, PLS-DA, process monitoring and data mining</li>
+            <li>Evaluation pipelines, retrieval benchmarks and scientific visualization</li>
+            <li>PCA, PLS-DA, process monitoring and forecasting workflows</li>
             <li>Optimization and engineering analytics</li>
           </ul>
         </div>
         <div>
-          <p class="eyebrow">About</p>
-          <h2>Research direction</h2>
+          <p class="eyebrow">Approach</p>
+          <h2>How the public repos are built</h2>
           <p class="body-copy">
-            The portfolio is centered on biomedical AI, medical imaging,
-            computational pathology and reproducible model evaluation.
+            I prefer fewer repositories that are well scoped, documented and safe to publish
+            over large unfiltered academic dumps.
           </p>
           <p class="body-copy">
-            When data cannot be shared, the public version focuses on code structure,
-            figures and documentation rather than raw project dumps.
+            When original data, reports or licensed assets cannot be shared, the public version
+            is centered on code structure, cleaned notebooks, safe figures and transparent
+            documentation about limitations.
           </p>
         </div>
       </section>
 
-      <section class="section contact-section">
+      <section class="section contact-section" id="contact">
         <p class="eyebrow">Contact</p>
-        <h2>Get in touch</h2>
-        <p>GitHub: <a href="https://github.com/VictorRoAlb">github.com/VictorRoAlb</a></p>
-        <p>Portfolio: <a href="https://victorroalb.github.io">victorroalb.github.io</a></p>
+        <h2>Portfolio links</h2>
+        <div class="contact-grid">
+          <a class="contact-card" href="https://github.com/VictorRoAlb">
+            <span class="contact-label">GitHub</span>
+            <strong>github.com/VictorRoAlb</strong>
+          </a>
+          <a class="contact-card" href="https://victorroalb.github.io">
+            <span class="contact-label">Website</span>
+            <strong>victorroalb.github.io</strong>
+          </a>
+        </div>
       </section>
     </main>
   </div>

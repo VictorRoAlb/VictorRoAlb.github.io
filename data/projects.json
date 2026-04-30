@@ -15,7 +15,8 @@
       "PyTorch ecosystem",
       "Matplotlib"
     ],
-    "status": "Public-ready",
+    "status": "Published",
+    "cluster": "Biomedical AI",
     "github": "https://github.com/VictorRoAlb/foundation-models-computational-pathology",
     "report": "",
     "image": "public/foundation-placeholder.svg"
@@ -35,7 +36,8 @@
       "VoxelMorph",
       "MRI"
     ],
-    "status": "Public",
+    "status": "Published",
+    "cluster": "Biomedical AI",
     "github": "https://github.com/VictorRoAlb/VoxelMorph-breastMRI-registration",
     "report": "",
     "image": "public/voxelmorph-placeholder.svg"
@@ -55,7 +57,8 @@
       "RMarkdown",
       "caret-style workflows"
     ],
-    "status": "In preparation",
+    "status": "Curated public version",
+    "cluster": "Data Science",
     "github": "https://github.com/VictorRoAlb/machine-learning-classification-regression",
     "report": "",
     "image": "public/ml-placeholder.svg"
@@ -75,7 +78,8 @@
       "RMarkdown",
       "forecast"
     ],
-    "status": "Public-ready",
+    "status": "Published",
+    "cluster": "Data Science",
     "github": "https://github.com/VictorRoAlb/time-series-forecasting-methods",
     "report": "",
     "image": "public/forecasting-placeholder.svg"
@@ -95,7 +99,8 @@
       "Keras",
       "Jupyter"
     ],
-    "status": "Manual review",
+    "status": "Public draft",
+    "cluster": "Data Science",
     "github": "https://github.com/VictorRoAlb/neural-networks-simulation",
     "report": "",
     "image": "public/nn-placeholder.svg"
@@ -115,7 +120,8 @@
       "RMarkdown",
       "Jupyter"
     ],
-    "status": "In preparation",
+    "status": "Curated public version",
+    "cluster": "Data Science",
     "github": "https://github.com/VictorRoAlb/multivariate-analysis-process-monitoring",
     "report": "",
     "image": "public/multivariate-placeholder.svg"
@@ -135,7 +141,8 @@
       "Jupyter",
       "Spreadsheet workflows"
     ],
-    "status": "In preparation",
+    "status": "Public draft",
+    "cluster": "Engineering",
     "github": "https://github.com/VictorRoAlb/production-scheduling-optimization",
     "report": "",
     "image": "public/scheduling-placeholder.svg"
