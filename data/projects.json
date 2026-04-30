@@ -107,9 +107,9 @@
   },
   {
     "title": "Multivariate Analysis and Process Monitoring",
-    "subtitle": "PCA / MCA / PLS-DA portfolio",
-    "description": "Curated material on multivariate analysis, class modelling and process-monitoring style visualizations.",
-    "details": "Combines two separate academic source folders: exploratory multivariate analysis plus a dedicated multivariate process-monitoring project with correlation and PLS-DA diagnostic figures.",
+    "subtitle": "Two clearly separated coursework blocks",
+    "description": "Public repository staging exploratory multivariate analysis and a separate process-monitoring / PLS-DA block without mixing both project narratives.",
+    "details": "The repository keeps introductory multivariate-analysis material apart from the later monitoring-and-diagnostics work, while still presenting them under one coherent multivariate theme for the portfolio.",
     "tags": [
       "PCA",
       "PLS-DA",
@@ -129,8 +129,8 @@
   {
     "title": "Production Planning and Parallel Machine Scheduling",
     "subtitle": "Engineering optimization project",
-    "description": "Selected optimization coursework covering release dates, setups and production-planning logic.",
-    "details": "Kept as a secondary engineering project in the portfolio; the public scaffold is ready, but the main notebooks still need local-path cleanup before publication.",
+    "description": "Curated scheduling project built around unrelated parallel machines, release dates, setup times, precedence constraints and shared-resource limits.",
+    "details": "Rebuilt from the full PPP project folder as a safe public export with CSV instance files, benchmark-extension documentation and a curated summary of solver results, without publishing the original Excel workbooks.",
     "tags": [
       "Optimization",
       "Scheduling",
@@ -138,10 +138,10 @@
     ],
     "technologies": [
       "Python",
-      "Jupyter",
-      "Spreadsheet workflows"
+      "OR-Tools framing",
+      "CSV benchmark exports"
     ],
-    "status": "Public draft",
+    "status": "Curated public version",
     "cluster": "Engineering",
     "github": "https://github.com/VictorRoAlb/production-scheduling-optimization",
     "report": "",
