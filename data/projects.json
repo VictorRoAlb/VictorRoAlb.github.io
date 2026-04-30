@@ -61,7 +61,7 @@
     "cluster": "Data Science",
     "github": "https://github.com/VictorRoAlb/machine-learning-classification-regression",
     "report": "",
-    "image": "public/ml-placeholder.svg"
+    "image": "public/ml-visual-preview.png"
   },
   {
     "title": "Time Series Forecasting and ARIMA Modelling",
