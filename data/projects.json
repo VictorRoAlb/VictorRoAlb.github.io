@@ -61,6 +61,26 @@
     "image": "public/ml-placeholder.svg"
   },
   {
+    "title": "Time Series Forecasting and ARIMA Modelling",
+    "subtitle": "Forecasting coursework",
+    "description": "Curated forecasting project covering smoothing models, Box-Jenkins logic and ARIMA-based short-horizon prediction.",
+    "details": "Public-facing R Markdown workflow built from a clean monthly wind-generation series, with a strong emphasis on reproducibility, holdout evaluation and interpretable classical forecasting methods.",
+    "tags": [
+      "Time Series",
+      "ARIMA",
+      "Forecasting"
+    ],
+    "technologies": [
+      "R",
+      "RMarkdown",
+      "forecast"
+    ],
+    "status": "Public-ready",
+    "github": "https://github.com/VictorRoAlb/time-series-forecasting-methods",
+    "report": "",
+    "image": "public/forecasting-placeholder.svg"
+  },
+  {
     "title": "Neural Networks and Simulation",
     "subtitle": "Deep-learning coursework",
     "description": "Neural-network and simulation coursework staged for future public cleanup.",
