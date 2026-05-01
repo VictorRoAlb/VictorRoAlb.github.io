@@ -72,8 +72,8 @@
         "alt": "Classification ROC comparison"
       },
       {
-        "src": "public/ml-regression-price.png",
-        "alt": "Regression-oriented PCA price view"
+        "src": "public/ml-regression-joint.png",
+        "alt": "Joint PCA view used to support the regression analysis"
       },
       {
         "src": "public/ml-regression-actual-vs-predicted.png",
@@ -121,17 +121,7 @@
     "cluster": "Data Science",
     "github": "https://github.com/VictorRoAlb/neural-networks-simulation",
     "report": "",
-    "image": "public/neural-summary-panel.png",
-    "gallery": [
-      {
-        "src": "public/neural-summary-panel.png",
-        "alt": "Neural networks summary panel"
-      },
-      {
-        "src": "public/neural-confusion-matrix.png",
-        "alt": "Final confusion matrix exported from the neural-networks notebook"
-      }
-    ]
+    "image": "public/neural-summary-panel.png"
   },
   {
     "title": "Multivariate Analysis and Process Monitoring",
@@ -190,12 +180,12 @@
     "image": "public/scheduling-method-comparison.png",
     "gallery": [
       {
-        "src": "public/scheduling-method-comparison.png",
-        "alt": "PPP method comparison figure"
-      },
-      {
         "src": "public/scheduling-final-results-table.png",
         "alt": "PPP final results table"
+      },
+      {
+        "src": "public/scheduling-method-comparison.png",
+        "alt": "PPP method comparison figure"
       }
     ]
   }
