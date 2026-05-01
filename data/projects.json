@@ -3,7 +3,7 @@
     "title": "Foundation Models for Computational Pathology",
     "subtitle": "Featured thesis project",
     "description": "Benchmarking and evaluation pipeline for histopathology foundation models, combining whole-slide image representations and pathology report embeddings for cross-modal retrieval tasks.",
-    "details": "Repository built around the thesis evaluation pipeline, with cleaned reporting code, privacy-safe documentation and a compact global dashboard summarizing the final retrieval comparison.",
+    "details": "Thesis project built around a histopathology retrieval pipeline, with reporting code, privacy-safe documentation and a compact global dashboard summarizing the final comparison.",
     "tags": [
       "Computational Pathology",
       "Foundation Models",
@@ -24,8 +24,8 @@
   {
     "title": "VoxelMorph for Breast MRI Registration",
     "subtitle": "Public bachelor thesis project",
-    "description": "Public GitHub repository for multimodal breast MRI registration based on VoxelMorph.",
-    "details": "Bachelor-thesis project focused on adapting VoxelMorph to breast MRI registration, supported by a full preprocessing workflow and a final evaluation stage based on image-similarity and overlap metrics.",
+    "description": "Bachelor-thesis project on multimodal breast MRI registration based on VoxelMorph.",
+    "details": "Work focused on adapting VoxelMorph to breast MRI registration, supported by a full preprocessing workflow and a final evaluation stage based on image-similarity and overlap metrics.",
     "tags": [
       "Medical Imaging",
       "Registration",
@@ -45,7 +45,7 @@
   {
     "title": "Machine Learning for Classification and Regression",
     "subtitle": "Coursework portfolio",
-    "description": "Selected supervised-learning coursework focused on classification, regression and evaluation workflows.",
+    "description": "Supervised-learning coursework focused on classification, regression and evaluation workflows.",
     "details": "R Markdown material and supporting scripts covering binary classification, cross-validation, ROC analysis, regression modelling and structural interpretation through PCA-based support views.",
     "tags": [
       "Machine Learning",
@@ -109,8 +109,8 @@
   {
     "title": "Neural Networks and Simulation",
     "subtitle": "Deep-learning coursework",
-    "description": "Curated public snapshot of a neural-networks coursework project, centered on representative training and classification outputs.",
-    "details": "The repository focuses on representative training dynamics and final classification outputs, while leaving out the original dataset references and checkpoint-heavy local workspace.",
+    "description": "Neural-networks coursework project centered on representative training and classification outputs.",
+    "details": "The repository focuses on training dynamics and final classification outputs, while leaving out the original dataset references and checkpoint-heavy local workspace.",
     "tags": [
       "Neural Networks",
       "Simulation",
@@ -140,8 +140,8 @@
   {
     "title": "Multivariate Analysis and Process Monitoring",
     "subtitle": "Exploratory analysis + PLS-DA monitoring",
-    "description": "Public repository combining exploratory multivariate analysis with a clearly separated PLS-DA process-monitoring block.",
-    "details": "The repository keeps broader multivariate-analysis material apart from the later monitoring-and-diagnostics work, with the second branch explicitly centered on PLS-DA outputs and diagnostic figures.",
+    "description": "Repository combining exploratory multivariate analysis with a clearly separated PLS-DA process-monitoring block.",
+    "details": "The material keeps broader multivariate-analysis work apart from the later monitoring-and-diagnostics block, with the second branch explicitly centered on PLS-DA outputs and diagnostic figures.",
     "tags": [
       "PCA",
       "PLS-DA",
@@ -179,8 +179,8 @@
   {
     "title": "Production Planning and Parallel Machine Scheduling",
     "subtitle": "Operations research project",
-    "description": "Curated scheduling project built around unrelated parallel machines, release dates, setup times, precedence constraints and shared-resource limits.",
-    "details": "Rebuilt from the full PPP project folder with safe CSV instance files, benchmark-extension documentation, cleaned Python scripts and solver-result summaries, without publishing the original Excel workbooks.",
+    "description": "Scheduling project built around unrelated parallel machines, release dates, setup times, precedence constraints and shared-resource limits.",
+    "details": "The repository includes safe CSV instance files, benchmark-extension documentation, cleaned Python scripts and solver-result summaries, without publishing the original Excel workbooks.",
     "tags": [
       "Optimization",
       "Scheduling",
