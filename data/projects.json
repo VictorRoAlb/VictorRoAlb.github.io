@@ -46,7 +46,7 @@
     "title": "Machine Learning for Classification and Regression",
     "subtitle": "Coursework portfolio",
     "description": "Selected supervised-learning coursework focused on classification, regression and evaluation workflows.",
-    "details": "Curated RMarkdown material with safe visual outputs and a public-facing README centered on model comparison, validation strategy and metric interpretation.",
+    "details": "Curated RMarkdown material with safe visual outputs showing binary-classification structure and regression-oriented projections, presented as a clean public-facing repository.",
     "tags": [
       "Machine Learning",
       "Classification",
@@ -61,7 +61,21 @@
     "cluster": "Data Science",
     "github": "https://github.com/VictorRoAlb/machine-learning-classification-regression",
     "report": "",
-    "image": "public/ml-visual-preview.png"
+    "image": "public/ml-visual-preview.png",
+    "gallery": [
+      {
+        "src": "public/ml-classification-fuzzy.png",
+        "alt": "Classification-oriented fuzzy binary result"
+      },
+      {
+        "src": "public/ml-regression-price.png",
+        "alt": "Regression-oriented PCA price view"
+      },
+      {
+        "src": "public/ml-regression-joint.png",
+        "alt": "Joint PCA regression-oriented view"
+      }
+    ]
   },
   {
     "title": "Time Series Forecasting and ARIMA Modelling",
@@ -107,9 +121,9 @@
   },
   {
     "title": "Multivariate Analysis and Process Monitoring",
-    "subtitle": "Two clearly separated coursework blocks",
-    "description": "Public repository staging exploratory multivariate analysis and a separate process-monitoring / PLS-DA block without mixing both project narratives.",
-    "details": "The repository keeps introductory multivariate-analysis material apart from the later monitoring-and-diagnostics work, while still presenting them under one coherent multivariate theme for the portfolio.",
+    "subtitle": "Exploratory analysis + PLS-DA monitoring",
+    "description": "Public repository staging exploratory multivariate analysis and a clearly separated PLS-DA process-monitoring block without mixing both project narratives.",
+    "details": "The repository keeps introductory multivariate-analysis material apart from the later monitoring-and-diagnostics work, with the monitoring branch explicitly centered on PLS-DA outputs and diagnostic figures.",
     "tags": [
       "PCA",
       "PLS-DA",
@@ -124,7 +138,7 @@
     "cluster": "Data Science",
     "github": "https://github.com/VictorRoAlb/multivariate-analysis-process-monitoring",
     "report": "",
-    "image": "public/multivariate-placeholder.svg"
+    "image": "public/multivariate-plsda-confusion.png"
   },
   {
     "title": "Production Planning and Parallel Machine Scheduling",

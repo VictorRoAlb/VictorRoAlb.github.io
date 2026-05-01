@@ -10,6 +10,26 @@ function statusClass(status) {
   return "status-draft";
 }
 
+function renderProjectMedia(project) {
+  if (project.gallery && project.gallery.length) {
+    return `
+      <div class="project-gallery-grid">
+        ${project.gallery
+          .map(
+            (item, index) => `
+              <figure class="project-gallery-item ${index === 0 ? "is-wide" : ""}">
+                <img src="${item.src}" alt="${item.alt}" loading="lazy" />
+              </figure>
+            `,
+          )
+          .join("")}
+      </div>
+    `;
+  }
+
+  return `<img class="project-thumb" src="${project.image}" alt="${project.title} preview" loading="lazy" />`;
+}
+
 function renderProjectCard(project) {
   const tags = project.tags.map((tag) => `<span class="meta-chip">${tag}</span>`).join("");
   const tech = project.technologies.map((item) => `<span class="meta-chip">${item}</span>`).join("");
@@ -19,7 +39,7 @@ function renderProjectCard(project) {
 
   return `
     <article class="project-card" data-cluster="${project.cluster}">
-      <img class="project-thumb" src="${project.image}" alt="${project.title} preview" loading="lazy" />
+      ${renderProjectMedia(project)}
       <div class="project-status-row">
         <p class="project-subtitle">${project.subtitle}</p>
         <span class="status-badge ${statusClass(project.status)}">${project.status}</span>
