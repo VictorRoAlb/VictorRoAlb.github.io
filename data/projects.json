@@ -165,10 +165,6 @@
       {
         "src": "public/multivariate-vip.png",
         "alt": "PLS-DA variable-importance profile"
-      },
-      {
-        "src": "public/multivariate-diagnostics.png",
-        "alt": "PLS-DA residual and diagnostic monitoring view"
       }
     ]
   },
