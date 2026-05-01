@@ -16,7 +16,7 @@
       "Matplotlib"
     ],
     "status": "Published",
-    "cluster": "Biomedical AI",
+    "cluster": "AI Research",
     "github": "https://github.com/VictorRoAlb/foundation-models-computational-pathology",
     "report": "",
     "image": "public/foundation-placeholder.svg"
@@ -37,7 +37,7 @@
       "MRI"
     ],
     "status": "Published",
-    "cluster": "Biomedical AI",
+    "cluster": "AI Research",
     "github": "https://github.com/VictorRoAlb/VoxelMorph-breastMRI-registration",
     "report": "",
     "image": "public/voxelmorph-placeholder.svg"
