@@ -76,10 +76,6 @@
         "alt": "Regression-oriented PCA price view"
       },
       {
-        "src": "public/ml-regression-joint.png",
-        "alt": "Joint PCA regression-oriented view"
-      },
-      {
         "src": "public/ml-regression-actual-vs-predicted.png",
         "alt": "Observed versus predicted price for the final regression model"
       }
@@ -132,10 +128,6 @@
         "alt": "Neural networks summary panel"
       },
       {
-        "src": "public/neural-training-history.png",
-        "alt": "Training history exported from the neural-networks notebook"
-      },
-      {
         "src": "public/neural-confusion-matrix.png",
         "alt": "Final confusion matrix exported from the neural-networks notebook"
       }
@@ -169,10 +161,6 @@
       {
         "src": "public/multivariate-plsda-confusion.png",
         "alt": "PLS-DA normalized confusion matrix"
-      },
-      {
-        "src": "public/multivariate-cv-metrics.png",
-        "alt": "PLS-DA cross-validation metrics by latent components"
       },
       {
         "src": "public/multivariate-vip.png",
