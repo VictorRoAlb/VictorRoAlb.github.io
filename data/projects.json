@@ -3,7 +3,7 @@
     "title": "Foundation Models for Computational Pathology",
     "subtitle": "Featured thesis project",
     "description": "Benchmarking and evaluation pipeline for histopathology foundation models, combining whole-slide image representations and pathology report embeddings for cross-modal retrieval tasks.",
-    "details": "Public repository for the TFM pipeline, with privacy-safe figures, synthetic examples and documentation for multimodal retrieval benchmarking in computational pathology.",
+    "details": "Repository built around the thesis evaluation pipeline, with cleaned reporting code, privacy-safe documentation and a compact global dashboard summarizing the final retrieval comparison.",
     "tags": [
       "Computational Pathology",
       "Foundation Models",
@@ -19,13 +19,13 @@
     "cluster": "AI Research",
     "github": "https://github.com/VictorRoAlb/foundation-models-computational-pathology",
     "report": "",
-    "image": "public/foundation-placeholder.svg"
+    "image": "public/foundation-global-synthesis.png"
   },
   {
     "title": "VoxelMorph for Breast MRI Registration",
     "subtitle": "Public bachelor thesis project",
-    "description": "Public GitHub repository for a breast MRI registration project based on VoxelMorph.",
-    "details": "Established bachelor-thesis project already available on GitHub, highlighted here as a strong medical-imaging and registration repository.",
+    "description": "Public GitHub repository for multimodal breast MRI registration based on VoxelMorph.",
+    "details": "Bachelor-thesis project focused on adapting VoxelMorph to breast MRI registration, supported by a full preprocessing workflow and a final evaluation stage based on image-similarity and overlap metrics.",
     "tags": [
       "Medical Imaging",
       "Registration",
@@ -40,13 +40,13 @@
     "cluster": "AI Research",
     "github": "https://github.com/VictorRoAlb/VoxelMorph-breastMRI-registration",
     "report": "",
-    "image": "public/voxelmorph-placeholder.svg"
+    "image": "public/voxelmorph-workflow-diagram.png"
   },
   {
     "title": "Machine Learning for Classification and Regression",
     "subtitle": "Coursework portfolio",
     "description": "Selected supervised-learning coursework focused on classification, regression and evaluation workflows.",
-    "details": "R Markdown material and supporting scripts covering supervised learning, unsupervised support analysis and regression-oriented interpretation.",
+    "details": "R Markdown material and supporting scripts covering binary classification, cross-validation, ROC analysis, regression modelling and structural interpretation through PCA-based support views.",
     "tags": [
       "Machine Learning",
       "Classification",
@@ -61,27 +61,27 @@
     "cluster": "Data Science",
     "github": "https://github.com/VictorRoAlb/machine-learning-classification-regression",
     "report": "",
-    "image": "public/ml-visual-preview.png",
+    "image": "public/ml-classification-cv.png",
     "gallery": [
       {
-        "src": "public/ml-classification-fuzzy.png",
-        "alt": "Classification-oriented fuzzy binary result"
+        "src": "public/ml-classification-cv.png",
+        "alt": "Classification cross-validation comparison"
+      },
+      {
+        "src": "public/ml-classification-roc.png",
+        "alt": "Classification ROC comparison"
       },
       {
         "src": "public/ml-regression-price.png",
         "alt": "Regression-oriented PCA price view"
       },
       {
-        "src": "public/ml-mca-variables.png",
-        "alt": "Exploratory MCA view for feature interpretation"
-      },
-      {
         "src": "public/ml-regression-joint.png",
         "alt": "Joint PCA regression-oriented view"
       },
       {
-        "src": "public/ml-screeplot.png",
-        "alt": "Exploratory scree plot from the supporting unsupervised block"
+        "src": "public/ml-regression-actual-vs-predicted.png",
+        "alt": "Observed versus predicted price for the final regression model"
       }
     ]
   },
@@ -89,7 +89,7 @@
     "title": "Time Series Forecasting and ARIMA Modelling",
     "subtitle": "Forecasting coursework",
     "description": "Forecasting project covering smoothing models, Box-Jenkins logic and ARIMA-based short-horizon prediction.",
-    "details": "R Markdown and script workflow built from a clean monthly wind-generation series, with a strong emphasis on reproducibility, holdout evaluation and interpretable classical forecasting methods.",
+    "details": "R Markdown and script workflow built around a monthly wind-generation series, with a strong emphasis on reproducibility, holdout evaluation and interpretable classical forecasting methods.",
     "tags": [
       "Time Series",
       "ARIMA",
@@ -104,13 +104,13 @@
     "cluster": "Data Science",
     "github": "https://github.com/VictorRoAlb/time-series-forecasting-methods",
     "report": "",
-    "image": "public/forecasting-placeholder.svg"
+    "image": "public/forecasting-arima-final.png"
   },
   {
     "title": "Neural Networks and Simulation",
     "subtitle": "Deep-learning coursework",
-    "description": "Neural-network and simulation coursework staged for future public cleanup.",
-    "details": "Repository scaffold prepared; the main notebook still requires path cleaning, export reduction and a cleaner narrative before full publication.",
+    "description": "Curated public snapshot of a neural-networks coursework project, centered on representative training and classification outputs.",
+    "details": "The repository focuses on representative training dynamics and final classification outputs, while leaving out the original dataset references and checkpoint-heavy local workspace.",
     "tags": [
       "Neural Networks",
       "Simulation",
@@ -121,17 +121,27 @@
       "Keras",
       "Jupyter"
     ],
-    "status": "In preparation",
+    "status": "Published",
     "cluster": "Data Science",
     "github": "https://github.com/VictorRoAlb/neural-networks-simulation",
     "report": "",
-    "image": "public/nn-placeholder.svg"
+    "image": "public/neural-training-history.png",
+    "gallery": [
+      {
+        "src": "public/neural-training-history.png",
+        "alt": "Training history exported from the neural-networks notebook"
+      },
+      {
+        "src": "public/neural-confusion-matrix.png",
+        "alt": "Final confusion matrix exported from the neural-networks notebook"
+      }
+    ]
   },
   {
     "title": "Multivariate Analysis and Process Monitoring",
     "subtitle": "Exploratory analysis + PLS-DA monitoring",
     "description": "Public repository combining exploratory multivariate analysis with a clearly separated PLS-DA process-monitoring block.",
-    "details": "The repository keeps introductory multivariate-analysis material apart from the later monitoring-and-diagnostics work, with the monitoring branch explicitly centered on PLS-DA outputs and diagnostic figures.",
+    "details": "The repository keeps broader multivariate-analysis material apart from the later monitoring-and-diagnostics work, with the second branch explicitly centered on PLS-DA outputs and diagnostic figures.",
     "tags": [
       "PCA",
       "PLS-DA",
