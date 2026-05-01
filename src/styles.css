@@ -145,18 +145,19 @@ a {
   box-shadow: var(--shadow);
   background: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(240,246,251,0.94));
   display: grid;
-  grid-template-columns: 180px 1fr;
-  gap: 22px;
+  grid-template-columns: minmax(148px, 160px) 1fr;
+  gap: 18px;
   align-items: center;
 }
 
 .hero-portrait {
-  width: 100%;
-  aspect-ratio: 1 / 1;
+  width: 156px;
+  height: 156px;
   object-fit: cover;
   border-radius: 22px;
   border: 1px solid var(--line);
   background: #dfe8ef;
+  justify-self: center;
 }
 
 .hero-portrait-copy p {
@@ -576,6 +577,12 @@ h3 {
 
   .hero-portrait-card {
     grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .hero-portrait {
+    width: min(72vw, 220px);
+    height: min(72vw, 220px);
   }
 
   .projects-heading {

@@ -72,8 +72,16 @@
         "alt": "Regression-oriented PCA price view"
       },
       {
+        "src": "public/ml-mca-variables.png",
+        "alt": "Exploratory MCA view for feature interpretation"
+      },
+      {
         "src": "public/ml-regression-joint.png",
         "alt": "Joint PCA regression-oriented view"
+      },
+      {
+        "src": "public/ml-screeplot.png",
+        "alt": "Exploratory scree plot from the supporting unsupervised block"
       }
     ]
   },
@@ -138,11 +146,29 @@
     "cluster": "Data Science",
     "github": "https://github.com/VictorRoAlb/multivariate-analysis-process-monitoring",
     "report": "",
-    "image": "public/multivariate-plsda-confusion.png"
+    "image": "public/multivariate-plsda-confusion.png",
+    "gallery": [
+      {
+        "src": "public/multivariate-plsda-confusion.png",
+        "alt": "PLS-DA normalized confusion matrix"
+      },
+      {
+        "src": "public/multivariate-cv-metrics.png",
+        "alt": "PLS-DA cross-validation metrics by latent components"
+      },
+      {
+        "src": "public/multivariate-vip.png",
+        "alt": "PLS-DA variable-importance profile"
+      },
+      {
+        "src": "public/multivariate-diagnostics.png",
+        "alt": "PLS-DA residual and diagnostic monitoring view"
+      }
+    ]
   },
   {
     "title": "Production Planning and Parallel Machine Scheduling",
-    "subtitle": "Engineering optimization project",
+    "subtitle": "Operations research project",
     "description": "Curated scheduling project built around unrelated parallel machines, release dates, setup times, precedence constraints and shared-resource limits.",
     "details": "Rebuilt from the full PPP project folder with safe CSV instance files, benchmark-extension documentation, cleaned Python scripts and solver-result summaries, without publishing the original Excel workbooks.",
     "tags": [
@@ -156,9 +182,9 @@
       "CSV benchmark exports"
     ],
     "status": "Published",
-    "cluster": "Engineering",
+    "cluster": "Operations Research",
     "github": "https://github.com/VictorRoAlb/production-scheduling-optimization",
     "report": "",
-    "image": "public/scheduling-placeholder.svg"
+    "image": "public/scheduling-method-comparison.png"
   }
 ]
