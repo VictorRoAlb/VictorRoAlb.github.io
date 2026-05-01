@@ -6,7 +6,7 @@ async function loadProjects() {
 function statusClass(status) {
   const normalized = status.toLowerCase();
   if (normalized.includes("published")) return "status-published";
-  if (normalized.includes("curated")) return "status-curated";
+  if (normalized.includes("preparation")) return "status-draft";
   return "status-draft";
 }
 

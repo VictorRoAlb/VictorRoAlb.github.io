@@ -3,7 +3,7 @@
     "title": "Foundation Models for Computational Pathology",
     "subtitle": "Featured thesis project",
     "description": "Benchmarking and evaluation pipeline for histopathology foundation models, combining whole-slide image representations and pathology report embeddings for cross-modal retrieval tasks.",
-    "details": "Curated public export of the TFM pipeline with privacy-safe figures, synthetic examples and documentation for multimodal retrieval benchmarking in computational pathology.",
+    "details": "Public repository for the TFM pipeline, with privacy-safe figures, synthetic examples and documentation for multimodal retrieval benchmarking in computational pathology.",
     "tags": [
       "Computational Pathology",
       "Foundation Models",
@@ -25,7 +25,7 @@
     "title": "VoxelMorph for Breast MRI Registration",
     "subtitle": "Public bachelor thesis project",
     "description": "Public GitHub repository for a breast MRI registration project based on VoxelMorph.",
-    "details": "Established bachelor-thesis project already available on GitHub; this portfolio highlights it as a strong medical-imaging project and keeps local support notes separate.",
+    "details": "Established bachelor-thesis project already available on GitHub, highlighted here as a strong medical-imaging and registration repository.",
     "tags": [
       "Medical Imaging",
       "Registration",
@@ -46,7 +46,7 @@
     "title": "Machine Learning for Classification and Regression",
     "subtitle": "Coursework portfolio",
     "description": "Selected supervised-learning coursework focused on classification, regression and evaluation workflows.",
-    "details": "Curated RMarkdown material with safe visual outputs showing binary-classification structure and regression-oriented projections, presented as a clean public-facing repository.",
+    "details": "R Markdown material and supporting scripts covering supervised learning, unsupervised support analysis and regression-oriented interpretation.",
     "tags": [
       "Machine Learning",
       "Classification",
@@ -57,7 +57,7 @@
       "RMarkdown",
       "caret-style workflows"
     ],
-    "status": "Curated public version",
+    "status": "Published",
     "cluster": "Data Science",
     "github": "https://github.com/VictorRoAlb/machine-learning-classification-regression",
     "report": "",
@@ -80,8 +80,8 @@
   {
     "title": "Time Series Forecasting and ARIMA Modelling",
     "subtitle": "Forecasting coursework",
-    "description": "Curated forecasting project covering smoothing models, Box-Jenkins logic and ARIMA-based short-horizon prediction.",
-    "details": "Public-facing R Markdown workflow built from a clean monthly wind-generation series, with a strong emphasis on reproducibility, holdout evaluation and interpretable classical forecasting methods.",
+    "description": "Forecasting project covering smoothing models, Box-Jenkins logic and ARIMA-based short-horizon prediction.",
+    "details": "R Markdown and script workflow built from a clean monthly wind-generation series, with a strong emphasis on reproducibility, holdout evaluation and interpretable classical forecasting methods.",
     "tags": [
       "Time Series",
       "ARIMA",
@@ -102,7 +102,7 @@
     "title": "Neural Networks and Simulation",
     "subtitle": "Deep-learning coursework",
     "description": "Neural-network and simulation coursework staged for future public cleanup.",
-    "details": "Repository scaffold prepared; the main notebook still requires path cleaning, export reduction and a cleaner narrative before publication.",
+    "details": "Repository scaffold prepared; the main notebook still requires path cleaning, export reduction and a cleaner narrative before full publication.",
     "tags": [
       "Neural Networks",
       "Simulation",
@@ -113,7 +113,7 @@
       "Keras",
       "Jupyter"
     ],
-    "status": "Public draft",
+    "status": "In preparation",
     "cluster": "Data Science",
     "github": "https://github.com/VictorRoAlb/neural-networks-simulation",
     "report": "",
@@ -122,7 +122,7 @@
   {
     "title": "Multivariate Analysis and Process Monitoring",
     "subtitle": "Exploratory analysis + PLS-DA monitoring",
-    "description": "Public repository staging exploratory multivariate analysis and a clearly separated PLS-DA process-monitoring block without mixing both project narratives.",
+    "description": "Public repository combining exploratory multivariate analysis with a clearly separated PLS-DA process-monitoring block.",
     "details": "The repository keeps introductory multivariate-analysis material apart from the later monitoring-and-diagnostics work, with the monitoring branch explicitly centered on PLS-DA outputs and diagnostic figures.",
     "tags": [
       "PCA",
@@ -134,7 +134,7 @@
       "RMarkdown",
       "Jupyter"
     ],
-    "status": "Curated public version",
+    "status": "Published",
     "cluster": "Data Science",
     "github": "https://github.com/VictorRoAlb/multivariate-analysis-process-monitoring",
     "report": "",
@@ -144,7 +144,7 @@
     "title": "Production Planning and Parallel Machine Scheduling",
     "subtitle": "Engineering optimization project",
     "description": "Curated scheduling project built around unrelated parallel machines, release dates, setup times, precedence constraints and shared-resource limits.",
-    "details": "Rebuilt from the full PPP project folder as a safe public export with CSV instance files, benchmark-extension documentation and a curated summary of solver results, without publishing the original Excel workbooks.",
+    "details": "Rebuilt from the full PPP project folder with safe CSV instance files, benchmark-extension documentation, cleaned Python scripts and solver-result summaries, without publishing the original Excel workbooks.",
     "tags": [
       "Optimization",
       "Scheduling",
@@ -155,7 +155,7 @@
       "OR-Tools framing",
       "CSV benchmark exports"
     ],
-    "status": "Curated public version",
+    "status": "Published",
     "cluster": "Engineering",
     "github": "https://github.com/VictorRoAlb/production-scheduling-optimization",
     "report": "",
