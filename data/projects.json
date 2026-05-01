@@ -125,8 +125,12 @@
     "cluster": "Data Science",
     "github": "https://github.com/VictorRoAlb/neural-networks-simulation",
     "report": "",
-    "image": "public/neural-training-history.png",
+    "image": "public/neural-summary-panel.png",
     "gallery": [
+      {
+        "src": "public/neural-summary-panel.png",
+        "alt": "Neural networks summary panel"
+      },
       {
         "src": "public/neural-training-history.png",
         "alt": "Training history exported from the neural-networks notebook"
@@ -156,8 +160,12 @@
     "cluster": "Data Science",
     "github": "https://github.com/VictorRoAlb/multivariate-analysis-process-monitoring",
     "report": "",
-    "image": "public/multivariate-plsda-confusion.png",
+    "image": "public/multivariate-plsda-summary-panel.png",
     "gallery": [
+      {
+        "src": "public/multivariate-plsda-summary-panel.png",
+        "alt": "PLS-DA summary panel"
+      },
       {
         "src": "public/multivariate-plsda-confusion.png",
         "alt": "PLS-DA normalized confusion matrix"
@@ -195,6 +203,16 @@
     "cluster": "Operations Research",
     "github": "https://github.com/VictorRoAlb/production-scheduling-optimization",
     "report": "",
-    "image": "public/scheduling-method-comparison.png"
+    "image": "public/scheduling-method-comparison.png",
+    "gallery": [
+      {
+        "src": "public/scheduling-method-comparison.png",
+        "alt": "PPP method comparison figure"
+      },
+      {
+        "src": "public/scheduling-final-results-table.png",
+        "alt": "PPP final results table"
+      }
+    ]
   }
 ]
