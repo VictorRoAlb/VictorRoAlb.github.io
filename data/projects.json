@@ -153,12 +153,6 @@
         "alt": "PLS-DA summary panel",
         "wide": true,
         "ratio": "1.25 / 1"
-      },
-      {
-        "src": "public/multivariate-diagnostics.png",
-        "alt": "PLS-DA residual and diagnostic monitoring view",
-        "wide": true,
-        "ratio": "1 / 1"
       }
     ]
   },
@@ -196,5 +190,27 @@
         "ratio": "1.45 / 1"
       }
     ]
+  },
+  {
+    "title": "Python Data Analysis Foundations",
+    "subtitle": "Python rewrite of first-semester coursework",
+    "description": "Compact repository on data cleaning, transformation, imputation and statistical testing, translated from the original R coursework into Python.",
+    "details": "Public-facing Python version of the introductory analysis material: sleep-study cleaning and contrasts, plus Toyota-based examples for transformations and group comparisons.",
+    "tags": [
+      "Data Cleaning",
+      "Imputation",
+      "Statistical Testing"
+    ],
+    "technologies": [
+      "Python",
+      "pandas",
+      "SciPy",
+      "Matplotlib"
+    ],
+    "status": "In preparation",
+    "cluster": "Data Science",
+    "github": "",
+    "report": "",
+    "image": "public/python-data-analysis-summary.png"
   }
 ]

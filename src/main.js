@@ -34,8 +34,17 @@ function renderProjectMedia(project) {
 function renderProjectCard(project) {
   const tags = project.tags.map((tag) => `<span class="meta-chip">${tag}</span>`).join("");
   const tech = project.technologies.map((item) => `<span class="meta-chip">${item}</span>`).join("");
+  const githubLink = project.github && project.github !== "#"
+    ? `<a class="button button-secondary" href="${project.github}">GitHub</a>`
+    : "";
   const reportLink = project.report && project.report !== "#"
     ? `<a class="button button-secondary" href="${project.report}">Report</a>`
+    : "";
+  const linksBlock = (githubLink || reportLink)
+    ? `<div class="project-links">
+        ${githubLink}
+        ${reportLink}
+      </div>`
     : "";
 
   return `
@@ -51,10 +60,7 @@ function renderProjectCard(project) {
       <p class="cluster-label">${project.cluster}</p>
       <div class="meta-row">${tags}</div>
       <div class="meta-row">${tech}</div>
-      <div class="project-links">
-        <a class="button button-secondary" href="${project.github}">GitHub</a>
-        ${reportLink}
-      </div>
+      ${linksBlock}
     </article>
   `;
 }
