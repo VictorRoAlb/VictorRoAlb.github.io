@@ -28,7 +28,11 @@ function renderProjectMedia(project) {
     `;
   }
 
-  return `<img class="project-thumb" src="${project.image}" alt="${project.title} preview" loading="lazy" />`;
+  return `
+    <figure class="project-thumb-frame"${project.imageRatio ? ` style="--thumb-ratio: ${project.imageRatio};"` : ""}>
+      <img class="project-thumb" src="${project.image}" alt="${project.title} preview" loading="lazy" />
+    </figure>
+  `;
 }
 
 function renderProjectCard(project) {

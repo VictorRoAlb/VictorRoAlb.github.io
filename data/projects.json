@@ -22,46 +22,6 @@
     "image": "public/foundation-global-synthesis.png"
   },
   {
-    "title": "AWS Multimodal Feedback Pipeline",
-    "subtitle": "Generative AI engineering coursework",
-    "description": "End-to-end AWS pipeline for validating, enriching and formatting multimodal customer-feedback data for foundation-model analysis.",
-    "details": "Implementation blueprint covering Glue Data Quality, Lambda-based validation, Comprehend, Textract, Transcribe, SageMaker Processing and Bedrock-ready formatting for Claude-style downstream analysis.",
-    "tags": [
-      "AWS",
-      "Generative AI",
-      "Multimodal Pipelines"
-    ],
-    "technologies": [
-      "Python",
-      "AWS Lambda",
-      "Amazon Bedrock",
-      "CloudWatch"
-    ],
-    "status": "In preparation",
-    "cluster": "AI Engineering",
-    "github": "",
-    "report": "",
-    "image": "public/aws-feedback-architecture.png",
-    "gallery": [
-      {
-        "src": "public/aws-feedback-architecture.png",
-        "alt": "AWS multimodal feedback pipeline architecture",
-        "wide": true,
-        "ratio": "1.8 / 1"
-      },
-      {
-        "src": "public/aws-feedback-quality-dashboard.png",
-        "alt": "Quality monitoring dashboard",
-        "ratio": "1.35 / 1"
-      },
-      {
-        "src": "public/aws-feedback-multimodal-summary.png",
-        "alt": "Multimodal processing summary",
-        "ratio": "1.65 / 1"
-      }
-    ]
-  },
-  {
     "title": "VoxelMorph for Breast MRI Registration",
     "subtitle": "Public bachelor thesis project",
     "description": "Bachelor-thesis project on multimodal breast MRI registration based on VoxelMorph.",
@@ -251,6 +211,47 @@
     "cluster": "Data Science",
     "github": "https://github.com/VictorRoAlb/python-data-analysis-foundations",
     "report": "",
-    "image": "public/python-data-analysis-summary.png"
+    "image": "public/python-data-analysis-summary.png",
+    "imageRatio": "1.37 / 1"
+  },
+  {
+    "title": "AWS Multimodal Feedback Pipeline",
+    "subtitle": "Generative AI engineering coursework",
+    "description": "End-to-end AWS pipeline for validating, enriching and formatting multimodal customer-feedback data for foundation-model analysis.",
+    "details": "Implementation blueprint covering Glue Data Quality, Lambda-based validation, Comprehend, Textract, Transcribe, SageMaker Processing and Bedrock-ready formatting for Claude-style downstream analysis.",
+    "tags": [
+      "AWS",
+      "Generative AI",
+      "Multimodal Pipelines"
+    ],
+    "technologies": [
+      "Python",
+      "AWS Lambda",
+      "Amazon Bedrock",
+      "CloudWatch"
+    ],
+    "status": "In preparation",
+    "cluster": "AI Engineering",
+    "github": "",
+    "report": "",
+    "image": "public/aws-feedback-architecture.png",
+    "gallery": [
+      {
+        "src": "public/aws-feedback-architecture.png",
+        "alt": "AWS multimodal feedback pipeline architecture",
+        "wide": true,
+        "ratio": "1.95 / 1"
+      },
+      {
+        "src": "public/aws-feedback-quality-dashboard.png",
+        "alt": "Quality monitoring dashboard",
+        "ratio": "1.67 / 1"
+      },
+      {
+        "src": "public/aws-feedback-multimodal-summary.png",
+        "alt": "Multimodal processing summary",
+        "ratio": "2.53 / 1"
+      }
+    ]
   }
 ]
