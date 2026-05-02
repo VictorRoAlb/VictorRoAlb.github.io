@@ -271,9 +271,9 @@
       "OpenSearch",
       "Step Functions"
     ],
-    "status": "In preparation",
+    "status": "Published",
     "cluster": "AI Engineering",
-    "github": "",
+    "github": "https://github.com/VictorRoAlb/aws-rag-foundation-model-augmentation",
     "report": "",
     "image": "public/aws-rag-architecture.png",
     "gallery": [
