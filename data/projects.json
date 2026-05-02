@@ -104,7 +104,8 @@
     "cluster": "Data Science",
     "github": "https://github.com/VictorRoAlb/time-series-forecasting-methods",
     "report": "",
-    "image": "public/forecasting-arima-final.png"
+    "image": "public/forecasting-summary-panel.png",
+    "imageRatio": "1.4 / 1"
   },
   {
     "title": "Neural Networks and Simulation",
