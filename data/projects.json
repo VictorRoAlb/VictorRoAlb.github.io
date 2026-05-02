@@ -207,9 +207,9 @@
       "SciPy",
       "Matplotlib"
     ],
-    "status": "In preparation",
+    "status": "Published",
     "cluster": "Data Science",
-    "github": "",
+    "github": "https://github.com/VictorRoAlb/python-data-analysis-foundations",
     "report": "",
     "image": "public/python-data-analysis-summary.png"
   }
