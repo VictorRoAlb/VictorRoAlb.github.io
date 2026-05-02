@@ -24,8 +24,8 @@
   {
     "title": "VoxelMorph for Breast MRI Registration",
     "subtitle": "Public bachelor thesis project",
-    "description": "Bachelor-thesis project on multimodal breast MRI registration based on VoxelMorph.",
-    "details": "Work focused on adapting VoxelMorph to breast MRI registration, supported by a full preprocessing workflow and a final evaluation stage based on image-similarity and overlap metrics.",
+    "description": "Breast MRI registration project built around VoxelMorph and a full medical-imaging workflow.",
+    "details": "The project combines preprocessing, model adaptation and final evaluation through overlap and image-similarity metrics in a multimodal breast MRI setting.",
     "tags": [
       "Medical Imaging",
       "Registration",
@@ -45,8 +45,8 @@
   {
     "title": "Machine Learning for Classification and Regression",
     "subtitle": "Coursework portfolio",
-    "description": "Supervised-learning coursework focused on classification, regression and evaluation workflows.",
-    "details": "R Markdown material and supporting scripts covering binary classification, cross-validation, ROC analysis, regression modelling and structural interpretation through PCA-based support views.",
+    "description": "Supervised-learning coursework covering classification, regression and model-evaluation workflows.",
+    "details": "The repository brings together binary classification, cross-validation, ROC analysis, regression modelling and PCA-based views used to support interpretation.",
     "tags": [
       "Machine Learning",
       "Classification",
@@ -88,8 +88,8 @@
   {
     "title": "Time Series Forecasting and ARIMA Modelling",
     "subtitle": "Forecasting coursework",
-    "description": "Forecasting project covering smoothing models, Box-Jenkins logic and ARIMA-based short-horizon prediction.",
-    "details": "R Markdown and script workflow built around a monthly wind-generation series, with a strong emphasis on reproducibility, holdout evaluation and interpretable classical forecasting methods.",
+    "description": "Forecasting project built around smoothing models, Box-Jenkins logic and ARIMA-based prediction.",
+    "details": "The workflow follows a monthly wind-generation series from exploratory analysis to residual diagnostics, holdout evaluation and final short-horizon forecasting.",
     "tags": [
       "Time Series",
       "ARIMA",
@@ -109,8 +109,8 @@
   {
     "title": "Neural Networks and Simulation",
     "subtitle": "Deep-learning coursework",
-    "description": "Neural-networks coursework project centered on representative training and classification outputs.",
-    "details": "The repository focuses on training dynamics and final classification outputs, while leaving out the original dataset references and checkpoint-heavy local workspace.",
+    "description": "Deep-learning coursework centered on training behaviour and final classification performance.",
+    "details": "The public version highlights representative training dynamics, summary panels and classification outputs without exposing the original heavy local workspace.",
     "tags": [
       "Neural Networks",
       "Simulation",
@@ -130,8 +130,8 @@
   {
     "title": "Multivariate Analysis and Process Monitoring",
     "subtitle": "Exploratory analysis + PLS-DA monitoring",
-    "description": "Repository combining exploratory multivariate analysis with a clearly separated PLS-DA process-monitoring block.",
-    "details": "The material keeps broader multivariate-analysis work apart from the later monitoring-and-diagnostics block, with the second branch explicitly centered on PLS-DA outputs and diagnostic figures.",
+    "description": "Repository combining exploratory multivariate analysis with a focused PLS-DA monitoring block.",
+    "details": "The material separates broad multivariate analysis from the later monitoring branch, which is centered on PLS-DA results, diagnostics and model interpretation.",
     "tags": [
       "PCA",
       "PLS-DA",
@@ -160,7 +160,7 @@
     "title": "Production Planning and Parallel Machine Scheduling",
     "subtitle": "Operations research project",
     "description": "Scheduling project built around unrelated parallel machines, release dates, setup times, precedence constraints and shared-resource limits.",
-    "details": "The repository includes safe CSV instance files, benchmark-extension documentation, cleaned Python scripts and solver-result summaries, without publishing the original Excel workbooks.",
+    "details": "The repository includes safe CSV instance files, benchmark-extension documentation, cleaned Python scripts and final solver-result summaries without publishing the original Excel workbooks.",
     "tags": [
       "Optimization",
       "Scheduling",
@@ -194,8 +194,8 @@
   {
     "title": "Python Data Analysis Foundations",
     "subtitle": "Python rewrite of first-semester coursework",
-    "description": "Compact repository on data cleaning, transformation, imputation and statistical testing, organized in Python around the coursework workflow.",
-    "details": "The repository combines the sleep-study exercises with Toyota-based examples for transformations, exploratory plots and group comparisons.",
+    "description": "Compact Python repository on data cleaning, transformation, imputation and statistical testing.",
+    "details": "The material combines sleep-study exercises with Toyota-based examples for variable transformations, exploratory plots and group comparisons.",
     "tags": [
       "Data Cleaning",
       "Imputation",
@@ -217,8 +217,8 @@
   {
     "title": "AWS Multimodal Feedback Pipeline",
     "subtitle": "Generative AI engineering coursework",
-    "description": "End-to-end AWS pipeline for validating, enriching and formatting multimodal customer-feedback data for foundation-model analysis.",
-    "details": "Implementation blueprint covering Glue Data Quality, Lambda-based validation, Comprehend, Textract, Transcribe, SageMaker Processing and Bedrock-ready formatting for Claude-style downstream analysis.",
+    "description": "End-to-end AWS pipeline for validating, enriching and formatting multimodal customer-feedback data.",
+    "details": "The implementation blueprint covers Glue Data Quality, Lambda-based validation, Comprehend, Textract, Transcribe, SageMaker Processing and Bedrock-ready formatting for downstream analysis.",
     "tags": [
       "AWS",
       "Generative AI",
