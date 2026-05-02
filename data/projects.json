@@ -254,5 +254,45 @@
         "ratio": "1.28 / 1"
       }
     ]
+  },
+  {
+    "title": "Design Retrieval Mechanisms for FM Augmentation",
+    "subtitle": "RAG and vector-search engineering coursework",
+    "description": "AWS-oriented RAG prototype for chunking, vector search, reranking and foundation-model augmentation.",
+    "details": "The project combines document segmentation, Bedrock-based embeddings, OpenSearch and pgvector design, hybrid retrieval, query orchestration and API-ready search integration.",
+    "tags": [
+      "RAG",
+      "Vector Search",
+      "Foundation Models"
+    ],
+    "technologies": [
+      "Python",
+      "Amazon Bedrock",
+      "OpenSearch",
+      "Step Functions"
+    ],
+    "status": "In preparation",
+    "cluster": "AI Engineering",
+    "github": "",
+    "report": "",
+    "image": "public/aws-rag-architecture.png",
+    "gallery": [
+      {
+        "src": "public/aws-rag-architecture.png",
+        "alt": "AWS RAG retrieval architecture",
+        "wide": true,
+        "ratio": "1.62 / 1"
+      },
+      {
+        "src": "public/aws-rag-chunking-benchmark.png",
+        "alt": "Chunking strategy benchmark",
+        "ratio": "1.28 / 1"
+      },
+      {
+        "src": "public/aws-rag-retrieval-benchmark.png",
+        "alt": "Retrieval benchmark summary",
+        "ratio": "1.28 / 1"
+      }
+    ]
   }
 ]
