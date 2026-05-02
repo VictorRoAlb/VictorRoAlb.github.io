@@ -518,11 +518,11 @@ h3 {
 
 .project-gallery-item.is-wide {
   grid-column: 1 / -1;
-  aspect-ratio: 16 / 8.5;
+  aspect-ratio: var(--gallery-ratio, 16 / 8.5);
 }
 
 .project-gallery-item:not(.is-wide) {
-  aspect-ratio: 1.25 / 1;
+  aspect-ratio: var(--gallery-ratio, 1.25 / 1);
 }
 
 .project-gallery-item img {

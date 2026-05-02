@@ -76,6 +76,10 @@
         "alt": "Joint PCA view used to support the regression analysis"
       },
       {
+        "src": "public/ml-regression-price.png",
+        "alt": "Regression-oriented PCA price view"
+      },
+      {
         "src": "public/ml-regression-actual-vs-predicted.png",
         "alt": "Observed versus predicted price for the final regression model"
       }
@@ -146,15 +150,15 @@
     "gallery": [
       {
         "src": "public/multivariate-plsda-summary-panel.png",
-        "alt": "PLS-DA summary panel"
+        "alt": "PLS-DA summary panel",
+        "wide": true,
+        "ratio": "1.25 / 1"
       },
       {
-        "src": "public/multivariate-plsda-confusion.png",
-        "alt": "PLS-DA normalized confusion matrix"
-      },
-      {
-        "src": "public/multivariate-vip.png",
-        "alt": "PLS-DA variable-importance profile"
+        "src": "public/multivariate-diagnostics.png",
+        "alt": "PLS-DA residual and diagnostic monitoring view",
+        "wide": true,
+        "ratio": "1 / 1"
       }
     ]
   },
@@ -181,11 +185,15 @@
     "gallery": [
       {
         "src": "public/scheduling-final-results-table.png",
-        "alt": "PPP final results table"
+        "alt": "PPP final results table",
+        "wide": true,
+        "ratio": "3.3 / 1"
       },
       {
         "src": "public/scheduling-method-comparison.png",
-        "alt": "PPP method comparison figure"
+        "alt": "PPP method comparison figure",
+        "wide": true,
+        "ratio": "1.45 / 1"
       }
     ]
   }

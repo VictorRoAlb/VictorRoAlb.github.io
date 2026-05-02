@@ -12,12 +12,13 @@ function statusClass(status) {
 
 function renderProjectMedia(project) {
   if (project.gallery && project.gallery.length) {
+    const hasExplicitWide = project.gallery.some((item) => item.wide);
     return `
       <div class="project-gallery-grid">
         ${project.gallery
           .map(
             (item, index) => `
-              <figure class="project-gallery-item ${index === 0 ? "is-wide" : ""}">
+              <figure class="project-gallery-item ${(item.wide || (!hasExplicitWide && index === 0)) ? "is-wide" : ""}"${item.ratio ? ` style="--gallery-ratio: ${item.ratio};"` : ""}>
                 <img src="${item.src}" alt="${item.alt}" loading="lazy" />
               </figure>
             `,
