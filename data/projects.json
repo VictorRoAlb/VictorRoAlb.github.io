@@ -194,8 +194,8 @@
   {
     "title": "Python Data Analysis Foundations",
     "subtitle": "Python rewrite of first-semester coursework",
-    "description": "Compact repository on data cleaning, transformation, imputation and statistical testing, translated from the original R coursework into Python.",
-    "details": "Public-facing Python version of the introductory analysis material: sleep-study cleaning and contrasts, plus Toyota-based examples for transformations and group comparisons.",
+    "description": "Compact repository on data cleaning, transformation, imputation and statistical testing, organized in Python around the coursework workflow.",
+    "details": "The repository combines the sleep-study exercises with Toyota-based examples for transformations, exploratory plots and group comparisons.",
     "tags": [
       "Data Cleaning",
       "Imputation",
