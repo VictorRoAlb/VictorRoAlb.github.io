@@ -240,17 +240,17 @@
         "src": "public/aws-feedback-architecture.png",
         "alt": "AWS multimodal feedback pipeline architecture",
         "wide": true,
-        "ratio": "1.95 / 1"
+        "ratio": "1.62 / 1"
       },
       {
         "src": "public/aws-feedback-quality-dashboard.png",
         "alt": "Quality monitoring dashboard",
-        "ratio": "1.67 / 1"
+        "ratio": "1.28 / 1"
       },
       {
         "src": "public/aws-feedback-multimodal-summary.png",
         "alt": "Multimodal processing summary",
-        "ratio": "2.53 / 1"
+        "ratio": "1.28 / 1"
       }
     ]
   }
