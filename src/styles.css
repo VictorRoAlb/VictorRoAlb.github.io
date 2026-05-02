@@ -450,6 +450,10 @@ h3 {
   gap: 18px;
 }
 
+.focus-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .feature-card,
 .focus-card {
   padding: 24px;
