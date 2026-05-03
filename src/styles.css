@@ -450,6 +450,10 @@ h3 {
   gap: 18px;
 }
 
+.feature-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .focus-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -471,6 +475,10 @@ h3 {
 
 .feature-card:nth-child(3) {
   background: linear-gradient(180deg, rgba(235,242,231,0.92), rgba(255,255,255,0.96));
+}
+
+.feature-card:nth-child(4) {
+  background: linear-gradient(180deg, rgba(244, 239, 226, 0.94), rgba(255,255,255,0.96));
 }
 
 .filter-row {
