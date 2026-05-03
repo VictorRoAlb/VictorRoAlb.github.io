@@ -3,7 +3,7 @@
     "title": "Foundation Models for Computational Pathology",
     "subtitle": "Featured thesis project",
     "description": "Benchmarking and evaluation pipeline for histopathology foundation models, combining whole-slide image representations and pathology report embeddings for cross-modal retrieval tasks.",
-    "details": "Thesis project built around a histopathology retrieval pipeline, with reporting code, privacy-safe documentation and a compact global dashboard summarizing the final comparison.",
+    "details": "In this thesis project I built the public reporting layer around a histopathology retrieval pipeline, with privacy-safe documentation and a compact global dashboard summarizing the final comparison.",
     "tags": [
       "Computational Pathology",
       "Foundation Models",
@@ -23,9 +23,9 @@
   },
   {
     "title": "VoxelMorph for Breast MRI Registration",
-    "subtitle": "Public bachelor thesis project",
+    "subtitle": "Bachelor thesis project",
     "description": "Breast MRI registration project built around VoxelMorph and a full medical-imaging workflow.",
-    "details": "The project combines preprocessing, model adaptation and final evaluation through overlap and image-similarity metrics in a multimodal breast MRI setting.",
+    "details": "In this bachelor-thesis project I combined preprocessing, model adaptation and final evaluation through overlap and image-similarity metrics in a multimodal breast MRI setting.",
     "tags": [
       "Medical Imaging",
       "Registration",
@@ -46,7 +46,7 @@
     "title": "Machine Learning for Classification and Regression",
     "subtitle": "Coursework portfolio",
     "description": "Supervised-learning coursework covering classification, regression and model-evaluation workflows.",
-    "details": "The repository brings together binary classification, cross-validation, ROC analysis, regression modelling and PCA-based views used to support interpretation.",
+    "details": "Here I bring together binary classification, cross-validation, ROC analysis, regression modelling and PCA-based views that support interpretation.",
     "tags": [
       "Machine Learning",
       "Classification",
@@ -89,7 +89,7 @@
     "title": "Time Series Forecasting and ARIMA Modelling",
     "subtitle": "Forecasting coursework",
     "description": "Forecasting project built around smoothing models, Box-Jenkins logic and ARIMA-based prediction.",
-    "details": "The workflow follows a monthly wind-generation series from exploratory analysis to residual diagnostics, holdout evaluation and final short-horizon forecasting.",
+    "details": "In this workflow I take a monthly wind-generation series from exploratory analysis to residual diagnostics, holdout evaluation and final short-horizon forecasting.",
     "tags": [
       "Time Series",
       "ARIMA",
@@ -111,7 +111,7 @@
     "title": "Neural Networks and Simulation",
     "subtitle": "Deep-learning coursework",
     "description": "Deep-learning coursework centered on training behaviour and final classification performance.",
-    "details": "The public version highlights representative training dynamics, summary panels and classification outputs without exposing the original heavy local workspace.",
+    "details": "Here I keep the representative training dynamics, summary panels and classification outputs without exposing the original heavy local workspace.",
     "tags": [
       "Neural Networks",
       "Simulation",
@@ -132,7 +132,7 @@
     "title": "Multivariate Analysis and Process Monitoring",
     "subtitle": "Exploratory analysis + PLS-DA monitoring",
     "description": "Repository combining exploratory multivariate analysis with a focused PLS-DA monitoring block.",
-    "details": "The material separates broad multivariate analysis from the later monitoring branch, which is centered on PLS-DA results, diagnostics and model interpretation.",
+    "details": "I keep the broader multivariate-analysis block separate from the later monitoring branch, which is centered on PLS-DA results, diagnostics and model interpretation.",
     "tags": [
       "PCA",
       "PLS-DA",
@@ -161,7 +161,7 @@
     "title": "Production Planning and Parallel Machine Scheduling",
     "subtitle": "Operations research project",
     "description": "Scheduling project built around unrelated parallel machines, release dates, setup times, precedence constraints and shared-resource limits.",
-    "details": "The repository includes safe CSV instance files, benchmark-extension documentation, cleaned Python scripts and final solver-result summaries without publishing the original Excel workbooks.",
+    "details": "Here I include safe CSV instance files, benchmark-extension documentation, cleaned Python scripts and final solver-result summaries without publishing the original Excel workbooks.",
     "tags": [
       "Optimization",
       "Scheduling",
@@ -196,7 +196,7 @@
     "title": "Python Data Analysis Foundations",
     "subtitle": "Python rewrite of first-semester coursework",
     "description": "Compact Python repository on data cleaning, transformation, imputation and statistical testing.",
-    "details": "The material combines sleep-study exercises with Toyota-based examples for variable transformations, exploratory plots and group comparisons.",
+    "details": "I combine sleep-study exercises with Toyota-based examples for variable transformations, exploratory plots and group comparisons.",
     "tags": [
       "Data Cleaning",
       "Imputation",
@@ -219,7 +219,7 @@
     "title": "AWS Multimodal Feedback Pipeline",
     "subtitle": "Generative AI engineering coursework",
     "description": "End-to-end AWS pipeline for validating, enriching and formatting multimodal customer-feedback data.",
-    "details": "The implementation blueprint covers Glue Data Quality, Lambda-based validation, Comprehend, Textract, Transcribe, SageMaker Processing and Bedrock-ready formatting for downstream analysis.",
+    "details": "In this implementation blueprint I cover Glue Data Quality, Lambda-based validation, Comprehend, Textract, Transcribe, SageMaker Processing and Bedrock-ready formatting for downstream analysis.",
     "tags": [
       "AWS",
       "Generative AI",
@@ -259,7 +259,7 @@
     "title": "Design Retrieval Mechanisms for FM Augmentation",
     "subtitle": "RAG and vector-search engineering coursework",
     "description": "AWS-oriented RAG prototype for chunking, vector search, reranking and foundation-model augmentation.",
-    "details": "The project combines document segmentation, Bedrock-based embeddings, OpenSearch and pgvector design, hybrid retrieval, query orchestration and API-ready search integration.",
+    "details": "In this project I combine document segmentation, Bedrock-based embeddings, OpenSearch and pgvector design, hybrid retrieval, query orchestration and API-ready search integration.",
     "tags": [
       "RAG",
       "Vector Search",
