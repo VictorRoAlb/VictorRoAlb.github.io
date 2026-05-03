@@ -231,9 +231,9 @@
       "Amazon Bedrock",
       "CloudWatch"
     ],
-    "status": "In preparation",
+    "status": "Published",
     "cluster": "AI Engineering",
-    "github": "",
+    "github": "https://github.com/VictorRoAlb/aws-multimodal-feedback-pipeline",
     "report": "",
     "image": "public/aws-feedback-architecture.png",
     "gallery": [
