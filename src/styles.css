@@ -25,6 +25,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 108px;
 }
 
 body {
@@ -329,6 +330,13 @@ h3 {
   font-weight: 600;
   border: 1px solid transparent;
   transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease, box-shadow 0.18s ease;
+}
+
+.external-link::after {
+  content: "↗";
+  margin-left: 8px;
+  font-size: 0.95em;
+  line-height: 1;
 }
 
 .button:hover {
@@ -705,6 +713,16 @@ h3 {
   border-radius: var(--radius-lg);
   color: var(--text);
   background: rgba(255, 255, 255, 0.86);
+  position: relative;
+}
+
+.contact-card.external-link::after {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  margin-left: 0;
+  color: var(--accent);
+  font-weight: 700;
 }
 
 .cv-section {

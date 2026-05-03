@@ -39,10 +39,10 @@ function renderProjectCard(project) {
   const tags = project.tags.map((tag) => `<span class="meta-chip">${tag}</span>`).join("");
   const tech = project.technologies.map((item) => `<span class="meta-chip">${item}</span>`).join("");
   const githubLink = project.github && project.github !== "#"
-    ? `<a class="button button-secondary" href="${project.github}">GitHub</a>`
+    ? `<a class="button button-secondary external-link" href="${project.github}" target="_blank" rel="noreferrer">GitHub</a>`
     : "";
   const reportLink = project.report && project.report !== "#"
-    ? `<a class="button button-secondary" href="${project.report}">Report</a>`
+    ? `<a class="button button-secondary external-link" href="${project.report}" target="_blank" rel="noreferrer">Report</a>`
     : "";
   const linksBlock = (githubLink || reportLink)
     ? `<div class="project-links">
