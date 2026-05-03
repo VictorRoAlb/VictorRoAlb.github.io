@@ -216,6 +216,46 @@
     "imageRatio": "1.37 / 1"
   },
   {
+    "title": "AWS Clinical AI Lakehouse",
+    "subtitle": "Biomedical AI engineering project",
+    "description": "AWS-first lakehouse pipeline for synthetic histopathology reports, embeddings, retrieval analytics and API delivery.",
+    "details": "In this project I turn a computational-pathology style workflow into a Bronze/Silver/Gold lakehouse with PySpark, SQL, FastAPI and retrieval-oriented monitoring.",
+    "tags": [
+      "AWS",
+      "PySpark",
+      "Biomedical AI"
+    ],
+    "technologies": [
+      "Python",
+      "Spark SQL",
+      "AWS Glue",
+      "FastAPI"
+    ],
+    "status": "Ready to publish",
+    "cluster": "AI Engineering",
+    "github": "",
+    "report": "",
+    "image": "public/aws-clinical-ai-lakehouse-architecture.png",
+    "gallery": [
+      {
+        "src": "public/aws-clinical-ai-lakehouse-architecture.png",
+        "alt": "AWS clinical AI lakehouse architecture",
+        "wide": true,
+        "ratio": "1.7 / 1"
+      },
+      {
+        "src": "public/aws-clinical-ai-lakehouse-gold-dashboard.png",
+        "alt": "Gold-layer analytics dashboard",
+        "ratio": "1.28 / 1"
+      },
+      {
+        "src": "public/aws-clinical-ai-lakehouse-retrieval-panel.png",
+        "alt": "Retrieval monitoring and alert panel",
+        "ratio": "1.28 / 1"
+      }
+    ]
+  },
+  {
     "title": "AWS Multimodal Feedback Pipeline",
     "subtitle": "Generative AI engineering coursework",
     "description": "End-to-end AWS pipeline for validating, enriching and formatting multimodal customer-feedback data.",
