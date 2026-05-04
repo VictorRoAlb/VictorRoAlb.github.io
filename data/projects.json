@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "title": "Foundation Models for Computational Pathology",
     "subtitle": "Featured thesis project",
@@ -17,7 +17,7 @@
     ],
     "status": "Published",
     "cluster": "AI Research",
-    "github": "https://github.com/VictorRoAlb/foundation-models-computational-pathology",
+    "github": "./go/foundation-models.html",
     "report": "",
     "image": "public/foundation-global-synthesis.png"
   },
@@ -38,7 +38,7 @@
     ],
     "status": "Published",
     "cluster": "AI Research",
-    "github": "https://github.com/VictorRoAlb/VoxelMorph-breastMRI-registration",
+    "github": "./go/voxelmorph.html",
     "report": "",
     "image": "public/voxelmorph-workflow-diagram.png"
   },
@@ -59,7 +59,7 @@
     ],
     "status": "Published",
     "cluster": "Data Science",
-    "github": "https://github.com/VictorRoAlb/machine-learning-classification-regression",
+    "github": "./go/machine-learning.html",
     "report": "",
     "image": "public/ml-classification-cv.png",
     "gallery": [
@@ -102,7 +102,7 @@
     ],
     "status": "Published",
     "cluster": "Data Science",
-    "github": "https://github.com/VictorRoAlb/time-series-forecasting-methods",
+    "github": "./go/forecasting.html",
     "report": "",
     "image": "public/forecasting-summary-panel.png",
     "imageRatio": "1.4 / 1"
@@ -124,7 +124,7 @@
     ],
     "status": "Published",
     "cluster": "Data Science",
-    "github": "https://github.com/VictorRoAlb/neural-networks-simulation",
+    "github": "./go/neural-networks.html",
     "report": "",
     "image": "public/neural-summary-panel.png"
   },
@@ -145,7 +145,7 @@
     ],
     "status": "Published",
     "cluster": "Data Science",
-    "github": "https://github.com/VictorRoAlb/multivariate-analysis-process-monitoring",
+    "github": "./go/multivariate.html",
     "report": "",
     "image": "public/multivariate-plsda-summary-panel.png",
     "gallery": [
@@ -174,7 +174,7 @@
     ],
     "status": "Published",
     "cluster": "Operations Research",
-    "github": "https://github.com/VictorRoAlb/production-scheduling-optimization",
+    "github": "./go/production-scheduling.html",
     "report": "",
     "image": "public/scheduling-method-comparison.png",
     "gallery": [
@@ -210,7 +210,7 @@
     ],
     "status": "Published",
     "cluster": "Data Science",
-    "github": "https://github.com/VictorRoAlb/python-data-analysis-foundations",
+    "github": "./go/python-data-analysis.html",
     "report": "",
     "image": "public/python-data-analysis-summary.png",
     "imageRatio": "1.37 / 1"
@@ -233,7 +233,7 @@
     ],
     "status": "Published",
     "cluster": "AI Engineering",
-    "github": "https://github.com/VictorRoAlb/aws-multimodal-feedback-pipeline",
+    "github": "./go/aws-pipeline.html",
     "report": "",
     "image": "public/aws-feedback-architecture.png",
     "gallery": [
@@ -296,3 +296,4 @@
     ]
   }
 ]
+
